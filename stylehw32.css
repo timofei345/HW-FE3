@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu  {
+    
+    
+    background-color: rgb(2, 139, 252);
+    border: 1px solid blue;
+    margin: auto;
+    width: 700px;
+   
+
+    
+}
+
+a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+   
+}
+
+li{
+    list-style-type: none;
+    border: 1px solid blue;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+a:hover{
+    background-color: white;
+    color: rgb(122, 136, 248);
+
+}
